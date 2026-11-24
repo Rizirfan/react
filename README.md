@@ -1,16 +1,37 @@
-# React + Vite
+# React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React application built with Vite.
 
-Currently, two official plugins are available:
+## Requirements
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Node.js and npm
 
-## React Compiler
+## Run locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository and enter the project folder:
 
-## Expanding the Oxlint configuration
+   ```sh
+   git clone https://github.com/Rizirfan/react.git
+   cd react
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+2. Install dependencies:
+
+   ```sh
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```sh
+   npm run dev
+   ```
+
+4. Open the local URL printed in the terminal (usually http://localhost:5173).
+
+## Other commands
+
+- `npm run build` creates a production build in `dist/`.
+- `npm run preview` previews the production build locally.
+- `npm run lint` checks the code with Oxlint.
+
